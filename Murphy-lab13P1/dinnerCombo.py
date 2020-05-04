@@ -38,5 +38,5 @@ class Dinner_combo:
         elif self._soup == "wanton soup":
             soup_cost = 1.50
         self._total = dish_cost + soup_cost
-        print("Your order is: ", self._main_dish, self._soup)
+        print("Your order is: ", self._main_dish + ", " + self._soup)
         print("Your total is: ${:.2f}".format(self._total))
